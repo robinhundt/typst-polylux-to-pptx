@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "img-to-pptx"
+version = "0.1.0"
+description = ""
+authors = ["Robin Hundt <24554122+robinhundt@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-pptx = "^0.6.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
